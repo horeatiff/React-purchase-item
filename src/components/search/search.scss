@@ -1,0 +1,33 @@
+@use "../../shared/scss/" as *;
+
+.search {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  height: 52px;
+
+  &__field {
+    width: 100%;
+    border: 1px solid #d7d9e8;
+    border-radius: 16px;
+    padding: 10px 10px 10px 45px;
+    font-weight: 600;
+    font-size: 16px;
+
+    &::placeholder {
+      font-weight: 600;
+      font-size: 16px;
+      color: $inactive;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+}

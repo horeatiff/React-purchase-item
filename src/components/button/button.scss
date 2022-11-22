@@ -1,0 +1,15 @@
+@use "../../shared/scss/" as *;
+
+.button {
+  width: 100%;
+  height: 55px;
+  padding: 16px;
+  background: $blue;
+  border-radius: 16px;
+  border: none;
+  color: $white;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 16px;
+}

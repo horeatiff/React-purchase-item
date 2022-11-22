@@ -1,0 +1,10 @@
+@use "../../shared/scss/" as *;
+
+.title {
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  color: $black;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

@@ -1,0 +1,37 @@
+@use "../../shared/scss/" as *;
+
+.reviews {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+
+  &__stars {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+  }
+
+  &__rating {
+    font-weight: 900;
+    font-size: 16px;
+    color: $black;
+  }
+
+  &__separator {
+    font-weight: 900;
+    font-size: 16px;
+    color: $black;
+  }
+
+  &__number {
+    font-weight: 400;
+    font-size: 16px;
+    color: $inactive;
+    text-decoration: underline;
+  }
+}
+
+.checked {
+  color: orange;
+}
